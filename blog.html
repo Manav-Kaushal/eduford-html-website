@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Eduford - Courses</title>
+  </head>
+  <body>
+    <!-- Scroll To Top Button -->
+    <button onclick="scrollToTop()" class="topBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./img/logo.png" alt="logo" /></a>
+        <div id="navLinks" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Courses</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <!-- Header/Hero Content -->
+      <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-- Blog Page Content -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="./img/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2021</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+            harum dicta corporis amet, culpa in atque facilis veniam nostrum
+            voluptatum autem odit temporibus doloremque, ad vero deserunt qui
+            odio, magni nisi sit laborum? Omnis dolorum unde nulla dignissimos
+            sequi? Laudantium rem repudiandae beatae vero atque.
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Accusantium inventore soluta molestias mollitia similique in debitis
+            aliquid odio architecto porro corrupti, corporis ullam quo odit
+            laboriosam asperiores ipsa voluptatum commodi explicabo repellat
+            saepe! Reiciendis quia ad quae? Placeat nulla sapiente, accusantium
+            ex laborum unde aperiam! Modi voluptates et earum commodi sint, quis
+            voluptatibus numquam natus reprehenderit quasi eius vitae pariatur
+            itaque dicta perferendis harum sequi minima in consectetur corrupti
+            atque id quibusdam asperiores culpa! Molestiae velit reprehenderit
+            pariatur illo et! Dignissimos et, voluptas incidunt architecto hic
+            nulla, libero perspiciatis sapiente quam cum necessitatibus in,
+            officia magnam asperiores enim. Praesentium, sit mollitia doloremque
+            enim eligendi dignissimos voluptas quia, neque quod non, fugiat
+            facilis. Possimus nulla tempore fuga quae veniam, accusamus saepe
+            nobis laboriosam impedit similique obcaecati!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo dolor
+            quisquam laboriosam error tenetur veniam voluptas animi minus
+            explicabo quam vitae saepe autem sit quidem ex reiciendis sed
+            aliquid, neque esse nihil voluptatibus earum dicta libero magnam.
+            Error unde facere ut quia autem recusandae, optio veritatis saepe
+            doloremque rerum suscipit ipsa delectus adipisci tempora
+            reprehenderit assumenda voluptas odit at incidunt voluptates
+            mollitia fugiat inventore? Explicabo sequi facere, odio deserunt
+            cupiditate ad repellendus nihil distinctio quae, aspernatur repellat
+            a, dolor vitae fugit porro itaque similique? Veritatis, cumque
+            nostrum? Magnam dolores quae tempora minima cum mollitia
+            praesentium?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
+            provident obcaecati animi quod. Modi tempora voluptates eaque, nulla
+            unde magnam dolores quas ab quidem libero? Placeat ratione ipsam
+            dolor, atque cum illo perferendis maxime mollitia magni temporibus
+            ex earum quisquam incidunt ducimus ab sequi porro ipsa laborum ut
+            tempora modi quas iusto? Ab nemo praesentium veritatis rem amet ut
+            et?
+          </p>
+
+          <!-- Comment Form -->
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form" action="">
+              <input type="text" placeholder="Enter Name" autocomplete="off" />
+              <input
+                type="email"
+                placeholder="Enter Email"
+                autocomplete="off"
+              />
+              <textarea
+                name=""
+                id=""
+                rows="5"
+                placeholder="Your comment"
+                autocomplete="off"
+              ></textarea>
+              <button type="submit" class="btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab harum
+        veniam similique ratione delectus necessitatibus, corporis deserunt ea
+        <br />
+        sunt numquam tenetur error laudantium rerum magni hic consectetur
+        ducimus praesentium nam!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="far fa-heart"></i> By *Author*</p>
+    </section>
+
+    <!-- JavaScript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <!-- Adding Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>

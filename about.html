@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Eduford - World's Best Education Hub</title>
+  </head>
+  <body>
+    <!-- Scroll To Top Button -->
+    <button onclick="scrollToTop()" class="topBtn">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header Section -->
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="./img/logo.png" alt="logo" /></a>
+        <div id="navLinks" class="nav-links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./course.html">Courses</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <!-- Hero Section -->
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum quam
+            vel accusamus odit deleniti sunt nemo neque omnis aliquam laborum
+            illum autem ut fugit iure quasi animi, libero quia ducimus alias,
+            corporis officia, earum dignissimos! Veniam dolorum tempora eum!
+            Sint, praesentium quam esse ex quos unde quas quo aliquam ratione!
+          </p>
+          <a class="btn red-btn" href="">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="./img/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <h3>About Us</h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab harum
+        veniam similique ratione delectus necessitatibus, corporis deserunt ea
+        <br />
+        sunt numquam tenetur error laudantium rerum magni hic consectetur
+        ducimus praesentium nam!
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="far fa-heart"></i> By *Author*</p>
+    </section>
+
+    <!-- JavaScript For Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+    <!-- Adding Custom JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
